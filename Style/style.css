@@ -164,3 +164,47 @@
     flex-direction: row-reverse;
 }
 /* why development styles end here  */
+
+/* inspiration style start here  */
+.inspiration-container{
+max-width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    margin-top: 200px;
+    
+}
+.inspiration-heading{
+    max-width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    text-align: center;
+}
+.inspiration-heading h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;  
+}
+.inspiration-heading  p{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.inspiration-video{
+    max-width: 1140px;
+    height: 614px;
+    margin-top: 48px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inspiration-video iframe{
+    width: 1076px;
+    height: 550px;
+  
+    border-radius: 16px;
+}
+/* inspiration style end here  */
