@@ -197,14 +197,42 @@ max-width: 1140px;
     height: 614px;
     margin-top: 48px;
     border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .inspiration-video iframe{
     width: 1076px;
     height: 550px;
-  
     border-radius: 16px;
 }
 /* inspiration style end here  */
+/* current target style start here  */
+.current-target-container{
+    max-width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 151px;
+}
+.target-heading {
+    max-width: 852px;
+    height: 37px;  
+    margin: 0 auto;
+    text-align: center;
+
+}
+.target-heading h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.target-heading p{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* current target style end here  */
