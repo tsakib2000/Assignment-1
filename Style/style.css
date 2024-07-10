@@ -234,5 +234,57 @@ max-width: 1140px;
     opacity: 0.7;
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 48px;
 }
+
+.target-card-container{
+    margin-top: 140px;
+    max-width: 1140px;
+    height: 299px; 
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.target-card{
+    max-width: 364px;
+    height: 299px;
+    padding: 40px;
+    background: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.target-card h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    }
+
+    .target-card p{
+        opacity: 0.7;
+        color: rgb(13, 19, 33);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .target-card a{
+        width: 284px;
+        height: 19px;
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration-line: underline;
+        cursor: pointer;
+    }
+    .css{
+    background: rgba(0, 76, 232, 0.05);
+    }
+    .js{
+        background: rgba(255, 223, 0, 0.05);
+    }
 /* current target style end here  */
