@@ -95,3 +95,72 @@
     text-decoration: none;
   }
 /* hero section ends here  */
+
+/* why development styles start here  */
+.development-container{
+    width: 946px;
+    height: 1235px;
+    margin: 0 auto;
+    margin-top: 154px;
+   
+}
+.development-heading{
+    width: 852px;
+    height: 115px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.development-heading h1{
+    color: rgb(13, 19, 33);
+        font-size: 32px;
+        font-weight: 800;
+        margin-bottom: 24px;
+}
+.development-heading p{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+
+
+}
+.development-card{
+    max-width: 946px;
+    height: 336px;
+    padding: 48px;
+    gap:98.83px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.card-head-btn{
+    max-width: 477px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.card-head-btn h1{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+}
+.card-head-btn p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+}
+.card-head-btn button{
+    width: 150px;
+    height: 48px;
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    border: none;
+}
+#dev-card-2{
+    flex-direction: row-reverse;
+}
+/* why development styles end here  */
