@@ -36,7 +36,15 @@ html {
     cursor: pointer;  
 }
 /* nav styles ends here  */
+/* nav media query start  here  */
+@media screen and (max-width:576px) {
+    #nav-section{
+        padding: 15px;  
+        flex-direction: column;
+    }
+}
 
+/* nav media query end here  */
 /* hero section starts here  */
 .hero-section-container{
     margin: 0 auto;
@@ -98,7 +106,22 @@ html {
     text-decoration: none;
   }
 /* hero section ends here  */
-
+@media screen and (max-width:576px) {
+    .hero-section-container{
+        padding: 15px;  
+        flex-direction: column;
+    }
+    .hero-headings {
+        padding: 15px;
+        width: 350px;
+    }
+    .hero-headings h1{
+        font-size:large;
+    }
+    .hero-headings P{
+        padding: 15px;
+    }
+}
 /* why development styles start here  */
 .development-container{
     width: 946px;
@@ -167,7 +190,34 @@ html {
     flex-direction: row-reverse;
 }
 /* why development styles end here  */
+@media screen and (max-width:576px){
+    .development-heading {
+        width: 350px;
+        
+    }
+    .development-cards{
+        height: 500px;
+    }
+    #card-1{
+    flex-direction: column;
+    margin-bottom: 200px;
+    padding: 15px;
+    } 
+    .card-head-btn{
+        margin-top: 34px;
+        width: 322px;
+    }
+    #dev-card-2{
+        flex-direction: column;
+        margin-bottom: 200px;
+    }
+    #card-3{
+        position: relative;
+        margin-bottom: 32px;
+        flex-direction: column;
+    }
 
+}
 /* inspiration style start here  */
 .inspiration-container{
 max-width: 1140px;
@@ -212,10 +262,19 @@ max-width: 1140px;
     border-radius: 16px;
 }
 /* inspiration style end here  */
+@media screen and (max-width:576px) {
+    .inspiration-container{
+        margin-top: 46.625em;
+    }
+    .inspiration-video{
+        padding: 50px 20px 50px 20px ;
+        height: 500px;
+    }
+}
 /* current target style start here  */
 .current-target-container{
     max-width: 1140px;
-    height: 460px;
+    height: fit-content;
     margin: 0 auto;
     margin-top: 151px;
 }
@@ -243,14 +302,14 @@ max-width: 1140px;
 .target-card-container{
     margin-top: 140px;
     max-width: 1140px;
-    height: 299px; 
+    /* height: 299px;  */
     display: flex;
     gap: 24px;
     justify-content: space-between;
 }
 .target-card{
     max-width: 364px;
-    height: 299px;
+    /* height: 299px; */
     padding: 40px;
     background: rgba(255, 76, 30, 0.05);
     border-radius: 16px;
@@ -291,6 +350,20 @@ max-width: 1140px;
         background: rgba(255, 223, 0, 0.05);
     }
 /* current target style end here  */
+@media screen and (max-width:576px) {
+    .current-target-container{
+        /* height: 1000px; */
+    }
+    
+    .target-card-container{
+        padding: 20px;
+     flex-direction: column;
+    }
+    .target-heading p{
+        font-size: small;
+    }
+    
+}
 /* support style start here  */
 .support-section{
     max-width: 1140px;
@@ -324,7 +397,7 @@ max-width: 1140px;
 
 }
 .support-heading p{
-    width: 606px;
+    /* width: 606px; */
     height: 52px;
     margin-top: 16px;
     color: rgb(255, 255, 255);
@@ -366,6 +439,39 @@ justify-content: center;
 }
 
 /* support style end here  */
+@media screen and (max-width:576px) {
+    .support-container{
+    width: 100%;
+    height: auto;
+    }
+    .support-heading{
+        width: 300px;
+        padding: 20px;
+        margin-right: 88px;
+        margin-bottom: 0px;
+    }
+  .support-form{
+    flex-direction: column;
+    height: 100px;
+    justify-content: center;
+    align-items:center ;
+    margin-right: 76px;
+  }
+  .support-form input[type="text"]{
+    width: 250px;
+    
+  }
+  .support-form input[type="submit"]{
+   padding: 10px;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  ::placeholder{
+    padding: 10px;
+    font-size: small;
+ font-size: 10px;
+  }
+}
 
 /* .information style start here  */
 .developer-info{
@@ -386,3 +492,12 @@ justify-content: center;
     height: 36px;
 }
 /* .information style end here  */
+@media screen and (max-width:576px) {
+    .developer-info{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .info{
+        text-align: center;
+    }
+}
